@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -15,32 +17,32 @@
         <h1>Richard Comi</h1>
         <nav>
             <span>
-                <a href="about">About</a>
+                <a href="index.html">About</a>
             </span> |
             <span>
-                <a href="portfolio">Portfolio</a>
+                <a href="portfolio.html">Portfolio</a>
             </span> |
             <span>
-                <a href="contact">Contact</a>
+                <a href="contact.html">Contact</a>
             </span>
         </nav>
     </header>
 
-    <section>
-        <article>
+    <section class="section">
+        <article class="article">
             <h2>Contact</h2>
             <hr>
             <form action="/action_page.php"></form>
             <p>Name</p>
-            <input type="text" name="name" placeholder="John Smith">
+            <input type="text" name="name" placeholder="John Smith" required="required">
             <br>
 
             <p>Email</p>
-            <input type="text" name="email" placeholder="example@gmail.com">
+            <input type="text" name="email" placeholder="example@gmail.com" required="required">
             <br>
 
             <p>Message</p>
-            <textarea rows="11" cols="100%" type="text" name="message"></textarea>
+            <textarea rows="11" cols="95.0%" type="text" name="message" required="required"></textarea>
             <br>
 
             <br>
@@ -53,6 +55,13 @@
         <aside>
             <h3>Connect with Me</h3>
             <hr>
+
+            <img src="assets/images/if_github_401441.png" class="links" alt="Github">
+
+            <img src="assets/images/if_linkedin_square_color_107091.png" class="links" alt="LinkedIn">
+
+            <img src="assets/images/if_overflow_334695.png" class="links" alt="Stack Overflow">
+            
         </aside>
     </div>
 
