@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
-
 <body>
+    <header id="mainheader">
 
-    <header>
-        <h1>Richard Comi</h1>
+        <div class="container">
+    
+        <a href="index.html" id="my-name">Richard Comi</a>
+
         <nav>
-            <span>
-                <a href="index.html">About</a>
-            </span> |
-            <span>
-                <a href="portfolio.html">Portfolio</a>
-            </span> |
-            <span>
-                <a href="contact.html">Contact</a>
-            </span>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
         </nav>
+
+        </div>
+
     </header>
+    
+    <div id="main-page" class="container">
 
         <section class="section">
-            <article class="article">
-                <h2>Portfolio</h2>
-                <hr>
+            <h1>Portfolio</h1>
 
-                <div class="project">
+            <div class="project">
                     <img src="assets/images/Hangman.jpg" class="picture" alt="Hangman" />
 
                     <h3>Hangman</h3>
@@ -63,16 +59,15 @@
                     <h3>Rutgers Info Widget</h3>
                 </div>
 
-            </article>
         </section>
 
+    </div>
 
-        <footer>
-            <h4>@Copyright 2018 Richard Comi</h4>
+    <footer>
+        <div class="container">
+            &copy: Copyright 2018 Richard Comi
+        </div>
     </footer>
-    
+
 </body>
-    
 </html>
-    
-    
